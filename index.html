@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sliders</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="section__slider slider_1">
+
+            <div class="slider__box">
+                <div class="slider-card__box">
+                </div>
+                <div class="button__box">
+                    <div class="button-left"></div>
+                    <div class="button-right"></div>
+                </div>
+            </div>
+        </section>
+        <section class="modal ">
+            <div class="modal__container disactive ">
+                <form action="#" method="post" enctype="multipart/form-data" autocomplete="off" id="form"
+                    class="modal__form">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Page about clocks">
+                    <input type="hidden" name="admin_email" value="2990610@ngs.ru">
+                    <input type="hidden" name="form_subject" value="Form Subject">
+                    <!-- END Hidden Required Fields -->
+                    <input class="user-name" type="text" name="Name" placeholder="Ваше имя" required />
+                    <input class="phone" type="tel" name="Phone" placeholder="Ваш телефон" required />
+                    <input class="name-goods" type="text" name="Goods" placeholder="Название товара">
+                    <button class="modal__submit" type="submit">Отправить</button>
+                </form>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(89537863, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/89537863" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+</body>
+
+<script type="module" src="./js/script.js"></script>
+
+</html>
